@@ -1,0 +1,143 @@
+﻿@page "/"
+
+<PageTitle>CouchDB MAUI App</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="jumbotron bg-primary text-white p-5 rounded mb-4">
+                <h1 class="display-4">CouchDB MAUI.NET Blazor</h1>
+                <p class="lead">Cross-platform application with efficient synchronization and conflict resolution</p>
+                <hr class="my-4">
+                <p>This application demonstrates CouchDB integration in a MAUI.NET Blazor cross-platform app with bidirectional synchronization and robust conflict resolution.</p>
+                <a class="btn btn-light btn-lg" href="/tasks" role="button">
+                    <i class="fas fa-tasks"></i> Open Task Manager
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-sync fa-2x text-primary me-3"></i>
+                        <h5 class="card-title mb-0">Bidirectional Synchronization</h5>
+                    </div>
+                    <p class="card-text">
+                        Seamlessly synchronize data between your device and CouchDB server. 
+                        Changes are automatically synced in both directions with efficient incremental updates.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-code-branch fa-2x text-success me-3"></i>
+                        <h5 class="card-title mb-0">Conflict Resolution</h5>
+                    </div>
+                    <p class="card-text">
+                        Intelligent conflict detection and resolution system ensures data integrity. 
+                        Conflicts are automatically detected and can be resolved through an intuitive interface.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-mobile-alt fa-2x text-info me-3"></i>
+                        <h5 class="card-title mb-0">Cross-Platform</h5>
+                    </div>
+                    <p class="card-text">
+                        Built with MAUI.NET Blazor for true cross-platform compatibility. 
+                        Runs consistently on iOS, Android, Windows, and macOS devices.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0"><i class="fas fa-features text-primary"></i> Key Features</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Offline-first architecture</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Real-time synchronization</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Automatic conflict detection</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Robust error handling</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Local data caching</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Device-specific tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0"><i class="fas fa-info-circle text-info"></i> Getting Started</h5>
+                </div>
+                <div class="card-body">
+                    <ol>
+                        <li class="mb-2">Configure your CouchDB server connection in the app settings</li>
+                        <li class="mb-2">Navigate to the <a href="/tasks">Task Manager</a> to start creating tasks</li>
+                        <li class="mb-2">Enable synchronization to connect with your CouchDB instance</li>
+                        <li class="mb-2">Create, edit, and manage tasks across all your devices</li>
+                        <li class="mb-2">Monitor sync status and resolve any conflicts that arise</li>
+                    </ol>
+                    <div class="alert alert-info">
+                        <small>
+                            <i class="fas fa-lightbulb"></i> 
+                            <strong>Tip:</strong> The app works offline! Changes will be synchronized when connectivity is restored.
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0"><i class="fas fa-cogs text-warning"></i> Technical Architecture</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 text-center mb-3">
+                            <i class="fas fa-database fa-3x text-primary mb-2"></i>
+                            <h6>CouchDB</h6>
+                            <small class="text-muted">Document database with built-in replication</small>
+                        </div>
+                        <div class="col-md-3 text-center mb-3">
+                            <i class="fas fa-code fa-3x text-success mb-2"></i>
+                            <h6>MAUI.NET</h6>
+                            <small class="text-muted">Cross-platform application framework</small>
+                        </div>
+                        <div class="col-md-3 text-center mb-3">
+                            <i class="fas fa-fire fa-3x text-danger mb-2"></i>
+                            <h6>Blazor</h6>
+                            <small class="text-muted">Modern web UI framework with C#</small>
+                        </div>
+                        <div class="col-md-3 text-center mb-3">
+                            <i class="fas fa-cloud fa-3x text-info mb-2"></i>
+                            <h6>Sync Engine</h6>
+                            <small class="text-muted">Custom synchronization and conflict resolution</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/obj/Debug/net8.0/compressed/d126fr3x2a.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/obj/Debug/net8.0/scopedcss/bundle/CouchDBMauiApp.styles.css",
+      "PackagePath": "staticwebassets/CouchDBMauiApp.styles.css"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/runner/work/CouchDBMaui.net/CouchDBMaui.net/CouchDBMauiApp/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.CouchDBMauiApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.CouchDBMauiApp.props",
+      "PackagePath": "build\\CouchDBMauiApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CouchDBMauiApp.props",
+      "PackagePath": "buildMultiTargeting\\CouchDBMauiApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CouchDBMauiApp.props",
+      "PackagePath": "buildTransitive\\CouchDBMauiApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
